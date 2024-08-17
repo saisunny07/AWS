@@ -4,7 +4,7 @@ This project demonstrates how to create a VPC that you can use for servers in a 
 
 To improve resiliency, you deploy the serevrs in 2 Availability Zones, by using group and Auto scaling group and an Application Load Balancer. For additional Security, I deployed the servers in private Subnets. The Servers receive requests through the load balancer. The servers can Connect to the internet NAT gateway. To improve resiliency, I deployed the NAT gateway in both Availability Zones.
 
-
+![alt text](vpc-example-private-subnets-1.png)
 Overview
 
 - The vpc has public subnets and private Subnets in two Availability Zones.
@@ -28,6 +28,7 @@ Note:
 5. Bastion Host or Jump Server: As we want to keep our applications Safe, we deploy then in private subnet and donot allocate any public Ip address. To connect to them we create a bastion server through which create we connect to main servers.
 
 Implemetation:
+
 Firstly, Login to AWS console
 
 1. Creation of VPC:
