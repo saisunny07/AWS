@@ -1,4 +1,4 @@
-                ***VPC with public-private Subnet in Production***
+                        ***VPC with public-private Subnet in Production***
 
 About the project:
 This project demonstrates how to create a VPC that you can use for servers in a production environment.
